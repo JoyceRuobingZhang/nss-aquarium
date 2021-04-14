@@ -1,0 +1,15 @@
+@import "./fish.css";
+header {
+    display: flex;
+}
+
+h1 {
+    display: flex;
+    margin: auto;
+}
+
+.fish {
+    border: 2px dashed goldenrod;
+    margin: 20px;
+    padding: 20px;
+}
