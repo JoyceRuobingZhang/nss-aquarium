@@ -1,15 +1,45 @@
-@import "./fish.css";
-header {
-    display: flex;
-}
-
-h1 {
-    display: flex;
-    margin: auto;
-}
-
-.fish {
-    border: 2px dashed goldenrod;
-    margin: 20px;
-    padding: 20px;
-}
+        @import "./fish.css";
+        @import "./aside.css";
+        @import "./quotes.css";
+        @import "./locations.css";
+        body {
+            background-image: linear-gradient(rgb(160, 235, 230), hsl(216, 73%, 71%), steelblue);
+        }
+        
+        .main {
+            display: flex;
+        }
+        
+        .main_left {
+            flex: 4;
+        }
+        
+        .main_right {
+            flex: 1;
+        }
+        
+        .logo {
+            margin: 10px;
+            border-radius: 20px;
+            width: 300px;
+        }
+        
+        header {
+            display: flex;
+            margin: 30px;
+            background-image: linear-gradient(rgb(96, 192, 247), rgb(164, 177, 233));
+            border-radius: 20px;
+            padding: 20px;
+        }
+        
+        h1 {
+            display: flex;
+            margin: auto;
+            color: rgb(241, 237, 168);
+            font-family: 'Gloria Hallelujah', cursive;
+            font-size: 80px;
+        }
+        
+        footer {
+            text-align: center;
+        }

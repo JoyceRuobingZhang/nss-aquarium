@@ -1,0 +1,16 @@
+.martins_quotes {
+    text-align: center;
+    border: 2px solid rgb(219, 190, 116);
+    background-image: linear-gradient(45deg, rgb(237, 238, 175), rgb(230, 182, 163));
+    border-radius: 10px;
+    width: 190px;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Original Surfer', cursive;
+    color: rgb(108, 118, 209);
+}
+
+.quotes_section {
+    margin: 40px;
+}

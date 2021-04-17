@@ -5,23 +5,28 @@
     <meta charset="utf-8">
     <title>Nashville Software School</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-        <img src="./images/logo.png" alt="Martin's Aquarium logo" width="200px">
+        <img class="logo" src="./images/logo.png" alt="Martin's Aquarium logo">
         <h1 class="title">Martin's Aquarium</h1>
     </header>
 
     <main class="main">
         <div class="main_left">
 
+            <h2 class="Martins_Fish">Martin's Fish</h2>
             <section class="fish_section">
-                <h2>Martin's Fish</h2>
                 <article class="fish">
                     <h3 class="fish_name">Mr. Tickles</h3>
                     <p class="fish_species">Gold Fish</p>
-                    <img src="" alt="">
+                    <img src="https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0f/b6/6e/0fb66e2b-8c3e-4648-b818-0fffd6c4eb7d/source/256x256bb.jpg" alt="gold fish">
                     <p class="fishl_ength">2 inches</p>
                     <p class="fish_location">Mexico</p>
                     <p class="fish_eats">Kale chips</p>
@@ -30,7 +35,7 @@
                 <article class="fish">
                     <h3 class="fish_name">Dr. Blubz</h3>
                     <p class="fish_species">Piranha</p>
-                    <img src="" alt="">
+                    <img src="./images/Piranha.png" alt="Piranha">
                     <p class="fishl_ength">7 inches</p>
                     <p class="fish_location">Brazil</p>
                     <p class="fish_eats">Gold Fish</p>
@@ -39,47 +44,94 @@
                 <article class="fish">
                     <h3 class="fish_name">Red Jackie</h3>
                     <p class="fish_species">Siamese Fighting Fish</p>
-                    <img src="" alt="">
+                    <img src="https://cdn.mos.cms.futurecdn.net/RY2EpSo74hvYXyAVpTN2Gg-1200-80.jpg" alt="Siamese Fighting Fish">
                     <p class="fishl_ength">2 inches</p>
-                    <p class="fish_location">Pet Stop</p>
+                    <p class="fish_location">Cambodia</p>
                     <p class="fish_eats">Fish Flakes</p>
                 </article>
             </section>
 
+            <h2 class="martins_quotes">Martin's Quotes</h2>
             <section class="quotes_section">
                 <article class="quotes">
-                    <p class="quote"></p><br>
-                    <p class="quote"></p>
+                    <p class="quote">>> Sustainable fishing ensures that fisheries continue to thrive in marine and freshwater habitats. People have fished sustainably for thousands of years. The Tagbanua people of the Philippines, above, hunt for specific species at
+                        different times of the year, which maintains healthy stocks of different fish. They also use sustainable methods such as spears.</p>
+                    <p class="quote">>> Cast-net fishing is another sustainable fishing technique. Cast nets, like this one used by fishers in Kenh Ga, Vietnam, require skilled fishers, but can catch dozens or even hundreds of fish. Cast-net fishing is a traditional technique
+                        for subsistence fishers, but can also be employed by commercial enterprises.</p>
+                    <p class="quote">>> Traditional rod-and-reel methods, such as fly fishing, above, is a sustainable fishing method. Rods and reels come in different shapes and sizes, allowing recreational and commercial fishers to target a wide variety of fish species
+                        in both fresh and saltwater.</p>
                 </article>
             </section>
 
+            <h2 class="martins_locations">Martin's Harvest Locations</h2>
             <section class="location_section">
                 <article class="locations">
                     <p class="location"></p>
-                    <img src="" alt="">
-                    <p class="location_caption"></p>
+                    <img src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1086671738%2F0x0.jpg%3FcropX1%3D0%26cropX2%3D3899%26cropY1%3D360%26cropY2%3D2554" alt="Mexico">
+                    <p class="location_caption">Mexico</p>
                 </article>
+
+                <article class="locations">
+                    <p class="location"></p>
+                    <img src="https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2020/12/15135147/Aerial-view-of-Rio-de-Janeiro-with-Christ-Redeemer-and-Corcovado-Mountain.-Brazil.-Latin-America-horizontal.jpg" alt="Brazil">
+                    <p class="location_caption">Brazil</p>
+                </article>
+
+                <article class="locations">
+                    <p class="location"></p>
+                    <img src="https://a.cdn-hotels.com/gdcs/production190/d1625/de95b94b-5366-4686-989f-631a6c433e32.jpg" alt="Cambodia">
+                    <p class="location_caption">Cambodia</p>
+                </article>
+
             </section>
         </div>
 
         <div class="main_right">
             <aside class="care_tips">
+                <img class="fish_tank" src="./images/fishtank.png" alt="fish tank">
                 <h2 class="care_tips_title">Tank Care Tips</h2>
                 <ul class="care_tips_list">
-                    <li class="care_tip">Change the water</li>
-                    <li class="care_tip"></li>
-                    <li class="care_tip"></li>
+                    <h4>Daily</h4>
+                    <li class="care_tip">Be sure to check the water temperature in your tank every day.</li>
+                    <a href="">Shop thermometers</a>
+                    <h4>Weekly</h4>
+                    <li class="care_tip">Replace 25-30% of the tank with clean water</li>
+                    <li class="care_tip">Test the water's pH, ammonia, nitrite, nitrate, hardness, alkalinity and chlorine</li>
+                    <a href="">Shop water test kits</a>
+                    <h4>Monthly</h4>
+                    <li class="care_tip">Vacuum aquarium gravel</li>
+                    <li class="care_tip">Inspect filter; rinse or replace the cartridge, carbon and pre-filter if necessary</li>
+                    <li class="care_tip">Clean away any algae</li>
+                    <li class="care_tip">Remove and clean plastic plants and decorative items</li>
+                    <a href="">Shop aquarium gravel vacuums</a>
+                    <a href="">Shop filter media</a>
+                    <h4>pH levels</h4>
+                    <li>Normal pH range: 6.5 to 8.2</li>
+                    <li>PH is the measure of how acidic or basic a solution is.</li>
+                    <li>Generally, you do not need to worry about pH levels unless your pH levels are dangerously high or low. Most fish can live in a wide range of pH.</li>
+                    <li>If you have elevated levels of ammonia in your aquarium. it will be more toxic if the pH is higher.</li>
+                    <h4>Chlorine and Chloramine</h4>
+                    <li>Normal results: 0.0 mg/L</li>
+                    <li>Incoming tap water has chlorine or chloramine added to make it safe to drink. These are toxic to fish.</li>
+                    <li>Any time tap water is added to the aquarium, a water conditioner must be used to remove any chlorine/chloramine that is present.</li>
+                    <h4>Ammonia</h4>
+                    <li>Normal results: 0.0 ppm (mg/L)</li>
+                    <li>Ammonia (NH3) is toxic to fish. It is excreted through the gill membranes of fish, introducing nitrogen into the aquarium.</li>
+                    <li>Ammonia will be converted into nitrite by “good” bacteria.</li>
+                    <a href="">Read more...</a>
                 </ul>
             </aside>
         </div>
 
     </main>
 
-    <footer class="">
+    <hr></hr>
+
+    <footer class="footer">
         <h3>Contact Information</h3>
         <p>Email: martinsaquarium@gmail.com</p>
-        <p>Address: 40</p>
-        <p>&@169</p>
+        <p>Address: 4026 12th south Nashville, TN</p>
+        <p>&#169;</p>
     </footer>
 
 
