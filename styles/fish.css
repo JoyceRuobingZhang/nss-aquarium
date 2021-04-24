@@ -11,14 +11,29 @@
     color: rgb(108, 118, 209)
 }
 
-.fish_section {
+
+/* .fish_section {
+    margin: 40px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+} */
+
+
+/* .fish {
+    border: 2px dotted goldenrod;
+    margin: 20px;
+    padding: 20px;
+} */
+
+.fishList {
     margin: 40px;
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
 }
 
-.fish {
+.card {
     border: 2px dotted goldenrod;
     margin: 20px;
     padding: 20px;
